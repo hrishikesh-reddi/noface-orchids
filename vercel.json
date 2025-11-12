@@ -1,0 +1,11 @@
+{
+  "buildCommand": "next build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "installCommand": "bun install",
+  "build": {
+    "env": {
+      "NEXT_PRIVATE_BUILD_WORKER": "true"
+    }
+  }
+}
